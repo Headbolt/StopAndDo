@@ -38,7 +38,7 @@ Pause1=$4 # Grab the Duration of the First Pause In Seconds from JAMF variable #
 Pause2=$5 # Grab the Duration of the Second Pause In Seconds from JAMF variable #5 eg 10
 Trigger=$6 # Grab the Policy Trigger to Execute JAMF variable #6 eg POLICYTRIGGER
 elevate=$7  # Grab whether to run this Policy Trigger usinf SUDO from JAMF variable #7 eg YES
-ForeBack=$8  # Grab whether to run theis Policy trigger in the ForeGround or Backgroup (Must be in CAPS) from JAMF variable #4 eg FOREGROUND
+ForeBack=$8  # Grab whether to run theis Policy trigger in the ForeGround or Backgroup (Must be in CAPS) from JAMF variable #8 eg FOREGROUND
 #
 ScriptName="insert suffix as required - Pause xxx - Inventory - Pause xxx - Specific Policy Trigger"
 #
